@@ -1,0 +1,7 @@
+play
+eclipsify
+eclipse with-source=true
+exit
+play
+eclipse with-source=true
+run

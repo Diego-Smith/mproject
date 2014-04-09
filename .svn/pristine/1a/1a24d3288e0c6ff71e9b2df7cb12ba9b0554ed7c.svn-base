@@ -1,0 +1,29 @@
+@(form: Form[(String,String)])(implicit flash: Flash, session: play.api.mvc.Session)
+
+@main("Login - Libreria Parole Nuove") {
+
+    <h1 class="title-section">Autenticazione</h1>
+ 
+    @helper.form(routes.Application.authenticate) {
+
+
+
+        @form.globalError.map { error =>
+        <p class="error">
+            @error.message
+        </p>
+        }
+
+        @flash.get("success").map { message =>
+        <p class="success">
+            @message
+        </p>
+        }
+
+				<input type="email" name="email" placeholder="Email" id="email" value="@form("email").value">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <button type="submit" id="loginbutton" class="button-link">Entra</button>
+
+    }
+
+}

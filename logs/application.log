@@ -1,0 +1,21 @@
+2014-03-22 17:45:04,319 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-03-22 17:45:16,549 - [INFO] - from play in New I/O worker #1 
+database [default] connected at jdbc:h2:mem:play
+
+2014-03-22 17:45:16,712 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2014-03-22 17:47:08,782 - [INFO] - from play in New I/O worker #3 
+database [default] connected at jdbc:h2:mem:play
+
+2014-03-22 17:47:08,823 - [INFO] - from play in New I/O worker #3 
+Application started (Dev)
+
+2014-03-22 17:48:18,537 - [INFO] - from play in New I/O worker #4 
+database [default] connected at jdbc:h2:mem:play
+
+2014-03-22 17:48:18,577 - [INFO] - from play in New I/O worker #4 
+Application started (Dev)
+

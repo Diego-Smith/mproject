@@ -1,0 +1,25 @@
+@(id: Long, formPost: Form[Post], backUrl: String)(implicit session: play.api.mvc.Session, flash: Flash)
+@import helper._
+				<script type="text/javascript" src="@routes.Assets.at("javascripts/main.js")" > </script>
+@admin {
+
+		@form(routes.Admin.updatePost(id, backUrl)) {
+        <h1 class="title-section">Modifica notizia</h1>
+        <fieldset>
+            @inputText(formPost("title"), '_label -> "Titolo(*)")
+            @textarea(formPost("content"), '_label -> "Contenuto(*)")
+            @inputText(formPost("dateCreation"), '_label -> "Data(yyyy-mm-dd *)")
+        </fieldset>
+        
+        <div class="actions">
+            <input type="submit" value="Salva" class="button-link inline"> 
+						}
+						@form(routes.Admin.deletePost(id, backUrl)) {
+        		<input type="submit" value="Elimina" class="button-link danger inline">
+    				}
+						@form(routes.Application.redirect(backUrl)) {
+        		<input type="submit" value="Annulla" class="button-link">
+    				}
+        </div>
+        <p>(*)Obbligatori</p>
+}

@@ -1,0 +1,80 @@
+ <div id="wrapper">
+            <div id="content">
+                <div id="introbox">
+                    <div>A</div>
+                    <h2>A typographical website template.</h2>
+                    <p>Elegant Typo is an imageless Open Source website template that only uses CSS for layout styling.</p>
+                </div>
+                <!-- Content Box -->
+                <div class="homecontent">
+                    <ul>
+                        <li>
+                            <p class="imgholder"><img src="images/demo/286x100.gif" alt="" /></p>
+                            <h2>About This Template</h2>
+                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+                            <p class="readmore"><a href="#">Read More &raquo;</a></p>
+                        </li>
+                        <li class="last">
+                            <p class="imgholder"><img src="images/demo/286x100.gif" alt="" /></p>
+                            <h2>Indonectetus facilis leo nibh</h2>
+                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+                            <p class="readmore"><a href="#">Read More &raquo;</a></p>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <!-- Content Box -->
+                <div class="homecontent">
+                    <ul>
+                        <li>
+                            <h2 class="title"><img src="images/demo/64x64.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
+                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+                            <p class="readmore2"><a href="#">Read More &raquo;</a></p>
+                        </li>
+                        <li class="last">
+                            <h2 class="title"><img src="images/demo/64x64.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
+                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+                            <p class="readmore2"><a href="#">Read More &raquo;</a></p>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <!-- /Box -->
+                <h2>About This Free CSS Template</h2>
+                <p>This is a W3C standards compliant free website template from <a href="http://www.os-templates.com/">OS Templates</a>.</p>
+                <p>This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>, which allows you to use and modify the template for both personal and commercial use when you keep the provided credit links in the footer.</p>
+                <p>For more CSS templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>.</p>
+            </div>
+            <div id="rightblock">
+                <div id="navi">
+                    <ul>
+                        <li><a class="active" href="index.html">Homepage</a></li>
+                        <li><a href="style-demo.html">Style Demo</a></li>
+                        <li><a href="full-width.html">Full Width</a></li>
+                        <li><a href="#">Link Text 1</a></li>
+                        <li><a href="#">Link Text 2</a></li>
+                    </ul>
+                </div>
+                <div class="holder">
+                    <h2>Indonectetus facilis leo nibh</h2>
+                    <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+                    <div class="readmore"><a href="#">Read More &raquo;</a></div>
+                </div>
+                <div class="holder"><img src="images/demo/230x100.gif" alt="" width="230" height="100" />
+                    <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                    <div class="readmore"><a href="#">Read More &raquo;</a></div>
+                </div>
+                <div class="holder">
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li>Etiam vel sapien et</li>
+                        <li><a href="#">Etiam vel sapien et</a></li>
+                    </ul>
+                    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
+                    <div class="readmore"><a href="#">Read More &raquo;</a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
