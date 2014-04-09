@@ -1,8 +1,0 @@
-@(message: String)(implicit request: play.api.mvc.Request[play.api.mvc.AnyContent], session: play.api.mvc.Session, flash: Flash)
-
-@news(Post.list(),0,"",request)
-//@main("News - Libreria Parole Nuove") {
-    
-    
-    
-//}

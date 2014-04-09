@@ -1,9 +1,0 @@
-@(test: String)(implicit session: play.api.mvc.Session, flash: Flash)
-@import helper._
-
-@admin {
-
-   <h1>Edit news</h1>
-    <button onClick="layout.modifyVars({'baseColor': '#5B83AD'});">Click me</button>
-    <button class="provaButton">Click me yes</button>
-}
